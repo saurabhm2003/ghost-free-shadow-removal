@@ -11,7 +11,6 @@ from networks import *
 from utils import *
 import scipy.stats as st
 import argparse,sys
-
 parser = argparse.ArgumentParser()
 parser.add_argument("--task", default="pre-trained", help="path to folder containing the model")
 parser.add_argument("--data_dir", default="./Dataset/ISTD_Dataset/", help="path to real dataset")
